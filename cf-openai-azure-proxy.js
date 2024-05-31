@@ -14,7 +14,7 @@ const mapper = {
     'dall-e-3': typeof DEPLOY_NAME_DALLE3 !== 'undefined' ? DEPLOY_NAME_DALLE3 : "dalle3",
 };
 
-const apiVersion="2023-12-01-preview"
+const apiVersion="2024-03-01-preview"
 
 addEventListener("fetch", (event) => {
   event.respondWith(handleRequest(event.request));
